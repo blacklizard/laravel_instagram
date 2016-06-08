@@ -1,0 +1,13 @@
+{
+    "name": "jeevan/laravel_instagram",
+    "description": "Laravel wrapper for jeevan/instagram_api",
+    "require": {
+        "jeevan/instagram_api": "dev-master",
+        "laravel/framework": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeevan\\Laravel\\": "src"
+        }
+    }
+}
